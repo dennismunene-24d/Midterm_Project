@@ -149,7 +149,3 @@ High predictive accuracy with near-perfect R² scores.
 Fast training time compared to computationally complex ensemble methods.
 
 Interpretable results for healthcare stakeholders, facilitating trust and understanding.
-
-
----
-Would you like me to elaborate on any section of this `README.md` or perhaps help you write the content for the `predict.py` Flask service?
