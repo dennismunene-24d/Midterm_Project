@@ -111,7 +111,7 @@ Output:
 
 final_dt_model.bin (trained model and vectorizer)
 
-5. Prediction Service (predict.py)
+## 5. Prediction Service (predict.py)
 A Flask + Waitress API used to serve the trained model.
 
 Endpoints:
@@ -140,12 +140,12 @@ Example Request (JSON):
 Run the API:
 python predict.py
 
-6. Testing the API (test.py)
+## 6. Testing the API (test.py)
 Example script to test the running service via requests.
 
 python test.py
 
-7. Dependencies
+## 7. Dependencies
 
 Option 1 — pip
 
@@ -156,7 +156,7 @@ Option 2 — conda
 conda env create -f environment.yml
 conda activate datasciencejosepy
 
-8. Docker Deployment
+## 8. Docker Deployment
 
 Build image:
 
@@ -170,7 +170,7 @@ API now available at:
 
 http://localhost:9696/predict
 
-9. Author
+## 9. Author
 
 Denis Munene Peter
 
